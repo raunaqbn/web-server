@@ -1,1 +1,1 @@
-This is the intial commit
+This is the web server project
