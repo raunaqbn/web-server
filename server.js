@@ -3,7 +3,7 @@ var app = express();
 
 var middleware = require('./middleware.js');
 
-app.use(middleware.requireAuthentication);
+app.use(middleware.logger);
 
 app.get('/',function (req, res){
 	res.send('Hello world!');
